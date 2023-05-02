@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "without"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-01"
+    "humanitec.com/appId": "without"
+    
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
